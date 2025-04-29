@@ -1,0 +1,26 @@
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text>Hi {name},</mj-text>
+        <mj-text>
+          Your One-Time Password (OTP) for login/verification is:
+        </mj-text>
+        <mj-text font-size="22px" font-weight="bold" color="#000000">
+          {otp}
+        </mj-text>
+        <mj-text>
+          This OTP is valid for the next 10 minutes. Please do not share it with anyone.
+        </mj-text>
+        <mj-text>
+          Best regards,<br />
+          NxtWave Technologies Pvt. Ltd.<br />
+          (Authentication Team)
+        </mj-text>
+        <mj-text font-size="12px" color="#888888">
+          <strong>Note:</strong> This is an automated email. Replies to this message will not be monitored.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
