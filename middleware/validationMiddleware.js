@@ -54,6 +54,11 @@ export const validateRegister = validationErrors([
             if (req.file.size > maxSize) {
                 throw new Error('Profile image size must be under 2MB');
             }
+
+            const allowedTypes = ['image/jpeg', 'image/png'];
+            if (!allowedTypes.includes(req.file.mimetype)) {
+                throw new Error('Profile image must be JPEG or PNG');
+            }
             return true;
         }),
 ]);

@@ -16,13 +16,6 @@ const router = Router();
 
 router.post("/register",
     upload.single("file"),
-    (req, res, next) => {
-        if (req.file) {
-            req.body.profileImage = req.file.path;
-            req.body.fileSize = req.file.size;
-        }
-        next();
-    },
     validateRegister,
     register
 );
