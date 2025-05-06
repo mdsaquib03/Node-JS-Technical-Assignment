@@ -1,0 +1,44 @@
+.notFoundBody {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.notFoundContainer {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notFoundHeading {
+    font-size: 2.5rem;
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+.notFoundSubHeading {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.notFoundParagraph {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.notFoundLink {
+    color: #0A2558;
+    text-decoration: none;
+}
+
+.notFoundLink:hover {
+    text-decoration: underline;
+}
